@@ -1,0 +1,106 @@
+|GATE2
+s << GOR8:A.z
+a => a.IN4
+b => b.IN3
+c => c.IN4
+d => d.IN3
+e => e.IN5
+
+
+|GATE2|GNOT:NA
+z <= a.DB_MAX_OUTPUT_PORT_TYPE
+a => z.DATAIN
+
+
+|GATE2|GNOT:NB
+z <= a.DB_MAX_OUTPUT_PORT_TYPE
+a => z.DATAIN
+
+
+|GATE2|GNOT:NC
+z <= a.DB_MAX_OUTPUT_PORT_TYPE
+a => z.DATAIN
+
+
+|GATE2|GNOT:ND
+z <= a.DB_MAX_OUTPUT_PORT_TYPE
+a => z.DATAIN
+
+
+|GATE2|GNOT:NE
+z <= a.DB_MAX_OUTPUT_PORT_TYPE
+a => z.DATAIN
+
+
+|GATE2|GAND3:A1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+e1 => z.IN0
+e2 => z.IN1
+e3 => z.IN1
+
+
+|GATE2|GAND3:A2
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+e1 => z.IN0
+e2 => z.IN1
+e3 => z.IN1
+
+
+|GATE2|GAND4:A3
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+e1 => z.IN0
+e2 => z.IN1
+e3 => z.IN1
+e4 => z.IN1
+
+
+|GATE2|GAND4:A4
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+e1 => z.IN0
+e2 => z.IN1
+e3 => z.IN1
+e4 => z.IN1
+
+
+|GATE2|GAND3:A5
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+e1 => z.IN0
+e2 => z.IN1
+e3 => z.IN1
+
+
+|GATE2|GAND3:A6
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+e1 => z.IN0
+e2 => z.IN1
+e3 => z.IN1
+
+
+|GATE2|GAND4:A7
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+e1 => z.IN0
+e2 => z.IN1
+e3 => z.IN1
+e4 => z.IN1
+
+
+|GATE2|GAND4:A8
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+e1 => z.IN0
+e2 => z.IN1
+e3 => z.IN1
+e4 => z.IN1
+
+
+|GATE2|GOR8:A
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+e1 => z.IN0
+e2 => z.IN1
+e3 => z.IN1
+e4 => z.IN1
+e5 => z.IN1
+e6 => z.IN1
+e7 => z.IN1
+e8 => z.IN1
+
+

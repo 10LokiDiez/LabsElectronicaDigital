@@ -1,0 +1,254 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11e vcom 2025.2 2025.05, May 31 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/sidim/Downloads/LABORATORIO DE ELECTRONICA/lb2/GATE4/simulation/questa
+T_opt
+!i145 1
+!i144 0
+!s110 1792460750
+V:eb1cng?E_nklN4z2DO6@3
+04 8 12 work tb_gate4 arq_tb_gate4 1
+=1-acf466b2bafa-6ad6c7cb-2a6-5034
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM10U11 
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L cyclonev_hssi -L rtl_work -L work +acc
+tCvgOpt 0 defaultOptions 1107585188
+n@_opt
+OL;O;2025.2;82
+Egandwnand
+Z2 w1792458317
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R1
+Z7 8C:/Users/sidim/Downloads/LABORATORIO DE ELECTRONICA/lb2/GATE4/GANDWNAND.vhd
+Z8 FC:/Users/sidim/Downloads/LABORATORIO DE ELECTRONICA/lb2/GATE4/GANDWNAND.vhd
+l0
+L6 1
+V`=o^8Z=QNVoVIQQbC;DV<2
+!s100 dB@9fe:BoVF3hUMX12UAl2
+Z9 OL;C;2025.2;82
+31
+Z10 !s110 1792460744
+!i10b 1
+Z11 !s108 1792460743.000000
+Z12 !s90 -reportprogress|300|-93|-work|work|C:/Users/sidim/Downloads/LABORATORIO DE ELECTRONICA/lb2/GATE4/GANDWNAND.vhd|
+Z13 !s107 C:/Users/sidim/Downloads/LABORATORIO DE ELECTRONICA/lb2/GATE4/GANDWNAND.vhd|
+!i113 0
+Z14 o-93 -work work
+Z15 tExplicit 1 CvgOpt 0 defaultOptions 1083072464
+Aarq_gandwnand
+R3
+R4
+R5
+R6
+DEx4 work 9 gandwnand 0 22 `=o^8Z=QNVoVIQQbC;DV<2
+!i122 0
+l29
+L16 22
+V`TiiW9U;aG6FZB7WX<5Ee1
+!s100 <4GW94fZ5N^z:]2OoM4XR0
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Egate4
+Z16 w1792460002
+R3
+R4
+R5
+R6
+!i122 3
+R1
+Z17 8C:/Users/sidim/Downloads/LABORATORIO DE ELECTRONICA/lb2/GATE4/GATE4.vhd
+Z18 FC:/Users/sidim/Downloads/LABORATORIO DE ELECTRONICA/lb2/GATE4/GATE4.vhd
+l0
+L6 1
+V3H]hNER3Caj34eMljGTQN1
+!s100 M`zgK[9XI2HF`Jh=4>07M0
+R9
+31
+Z19 !s110 1792460745
+!i10b 1
+Z20 !s108 1792460745.000000
+Z21 !s90 -reportprogress|300|-93|-work|work|C:/Users/sidim/Downloads/LABORATORIO DE ELECTRONICA/lb2/GATE4/GATE4.vhd|
+Z22 !s107 C:/Users/sidim/Downloads/LABORATORIO DE ELECTRONICA/lb2/GATE4/GATE4.vhd|
+!i113 0
+R14
+R15
+Aarq_gate4
+R3
+R4
+R5
+R6
+DEx4 work 5 gate4 0 22 3H]hNER3Caj34eMljGTQN1
+!i122 3
+l47
+L16 62
+VT:@2aMSCFHkJiEIhH0eko0
+!s100 1XFO?46j<ANZHVc]MfPHz2
+R9
+31
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 0
+R14
+R15
+Egnotwnand
+Z23 w1792458144
+R3
+R4
+R5
+R6
+!i122 1
+R1
+Z24 8C:/Users/sidim/Downloads/LABORATORIO DE ELECTRONICA/lb2/GATE4/GNOTWNAND.vhd
+Z25 FC:/Users/sidim/Downloads/LABORATORIO DE ELECTRONICA/lb2/GATE4/GNOTWNAND.vhd
+l0
+L6 1
+V?^Lz1kOEKF4j1?h^_YDN=3
+!s100 @b?7P0JDIVR@WT?Zze?UM3
+R9
+31
+R10
+!i10b 1
+Z26 !s108 1792460744.000000
+Z27 !s90 -reportprogress|300|-93|-work|work|C:/Users/sidim/Downloads/LABORATORIO DE ELECTRONICA/lb2/GATE4/GNOTWNAND.vhd|
+Z28 !s107 C:/Users/sidim/Downloads/LABORATORIO DE ELECTRONICA/lb2/GATE4/GNOTWNAND.vhd|
+!i113 0
+R14
+R15
+Aarq_gnotwnand
+R3
+R4
+R5
+R6
+DEx4 work 9 gnotwnand 0 22 ?^Lz1kOEKF4j1?h^_YDN=3
+!i122 1
+l18
+L16 7
+V9;D?lO;jZmlKQjIT;YWgj3
+!s100 30@PYj3d1^eVG14NPIXgV3
+R9
+31
+R10
+!i10b 1
+R26
+R27
+R28
+!i113 0
+R14
+R15
+Egorwnand
+Z29 w1792458819
+R3
+R4
+R5
+R6
+!i122 2
+R1
+Z30 8C:/Users/sidim/Downloads/LABORATORIO DE ELECTRONICA/lb2/GATE4/GORWNAND.vhd
+Z31 FC:/Users/sidim/Downloads/LABORATORIO DE ELECTRONICA/lb2/GATE4/GORWNAND.vhd
+l0
+L6 1
+VfiTF8oJDEbgT0Ha<8mUi>3
+!s100 >O?l_>@@8RGVV<5FE^?gL2
+R9
+31
+R19
+!i10b 1
+R20
+Z32 !s90 -reportprogress|300|-93|-work|work|C:/Users/sidim/Downloads/LABORATORIO DE ELECTRONICA/lb2/GATE4/GORWNAND.vhd|
+Z33 !s107 C:/Users/sidim/Downloads/LABORATORIO DE ELECTRONICA/lb2/GATE4/GORWNAND.vhd|
+!i113 0
+R14
+R15
+Aarq_gorwnand
+R3
+R4
+R5
+R6
+DEx4 work 8 gorwnand 0 22 fiTF8oJDEbgT0Ha<8mUi>3
+!i122 2
+l29
+L16 28
+Vg3?R?GE:ogd7>C;?:;I?g0
+!s100 [z?B6HcU4bKL::1R=9J491
+R9
+31
+R19
+!i10b 1
+R20
+R32
+R33
+!i113 0
+R14
+R15
+Etb_gate4
+Z34 w1792460567
+R3
+R4
+R5
+R6
+!i122 4
+R1
+Z35 8C:/Users/sidim/Downloads/LABORATORIO DE ELECTRONICA/lb2/GATE4/tb_GATE4.vhd
+Z36 FC:/Users/sidim/Downloads/LABORATORIO DE ELECTRONICA/lb2/GATE4/tb_GATE4.vhd
+l0
+L6 1
+VJHJ9@9P`bj2`2@E2U`1k?0
+!s100 h5=On^ni[KbP]hJg@inKg0
+R9
+31
+R19
+!i10b 1
+R20
+Z37 !s90 -reportprogress|300|-93|-work|work|C:/Users/sidim/Downloads/LABORATORIO DE ELECTRONICA/lb2/GATE4/tb_GATE4.vhd|
+Z38 !s107 C:/Users/sidim/Downloads/LABORATORIO DE ELECTRONICA/lb2/GATE4/tb_GATE4.vhd|
+!i113 0
+R14
+R15
+Aarq_tb_gate4
+R3
+R4
+R5
+R6
+DEx4 work 8 tb_gate4 0 22 JHJ9@9P`bj2`2@E2U`1k?0
+!i122 4
+l24
+L11 76
+V^Zm3zkAlcBI90agmX7QB>1
+!s100 7H0F3GghmT>zgPQ6VmCXd3
+R9
+31
+R19
+!i10b 1
+R20
+R37
+R38
+!i113 0
+R14
+R15

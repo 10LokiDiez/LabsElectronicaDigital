@@ -1,0 +1,23 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.std_logic_arith.all;
+use IEEE.std_logic_unsigned.all;
+
+entity GOR is
+
+port (
+
+	m, n: in STD_LOGIC;
+	p: out STD_LOGIC
+
+);
+end GOR;
+
+architecture arq_GOR of GOR is
+
+begin
+
+	p <= m or n;
+
+end arq_GOR;
+

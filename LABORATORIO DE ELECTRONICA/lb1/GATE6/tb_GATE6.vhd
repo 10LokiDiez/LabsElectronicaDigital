@@ -1,0 +1,140 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.std_logic_arith.all;
+use IEEE.std_logic_unsigned.all;
+
+entity tb_GATE6 is
+
+
+end tb_GATE6;
+
+architecture arq_tb_GATE6 of tb_GATE6 is
+
+component GATE6 is
+Port (
+		a, b, c, d, e, f, g, h: in STD_LOGIC;
+		s: out STD_LOGIC
+		);
+end component;
+
+
+signal Sa, Sb, Sc, Sd, Se, Sf, Sg, Sh, Ss: std_logic;
+
+
+begin
+
+IC_1: GATE6 Port map (
+		
+	a => Sa,
+	b => Sb,
+	c => Sc,
+	d => Sd,
+	e => Se,
+	f => Sf,
+	g => Sg,
+	h => Sh,
+	s => Ss
+	
+);
+
+
+
+process begin
+
+--- Estímulos de la simulación wait for 100 ns;
+
+Sa <= '0';
+Sb <= '1';
+Sc <= '0';
+Sd <= '0';
+Se <= '0';
+Sf <= '0';
+Sg <= '0';
+Sh <= '0';
+
+wait for 100 ns;
+
+Sa <= '0';
+Sb <= '0';
+Sc <= '0';
+Sd <= '1';
+Se <= '0';
+Sf <= '0';
+Sg <= '0';
+Sh <= '0';
+
+wait for 100 ns;
+
+Sa <= '0';
+Sb <= '0';
+Sc <= '1';
+Sd <= '0';
+Se <= '0';
+Sf <= '0';
+Sg <= '0';
+Sh <= '0';
+
+wait for 100 ns;
+
+Sa <= '1';
+Sb <= '0';
+Sc <= '1';
+Sd <= '1';
+Se <= '0';
+Sf <= '0';
+Sf <= '0';
+Sg <= '1';
+Sh <= '0';
+
+wait for 100 ns;
+
+Sa <= '0';
+Sb <= '1';
+Sc <= '0';
+Sd <= '1';
+Se <= '1';
+Sf <= '0';
+Sg <= '1';
+Sh <= '0';
+
+wait for 100 ns;
+
+Sa <= '0';
+Sb <= '1';
+Sc <= '0';
+Sd <= '1';
+Se <= '1';
+Sf <= '0';
+Sg <= '0';
+Sh <= '1';
+
+wait for 100 ns;
+
+Sa <= '0';
+Sb <= '0';
+Sc <= '1';
+Sd <= '1';
+Se <= '0';
+Sf <= '1';
+Sg <= '0';
+Sh <= '1';
+
+wait for 100 ns;
+
+Sa <= '0';
+Sb <= '1';
+Sc <= '1';
+Sd <= '1';
+Se <= '0';
+Sf <= '1';
+Sg <= '1';
+Sh <= '1';
+
+wait for 100 ns;
+
+
+wait;
+
+end process;
+
+end arq_tb_GATE6;

@@ -1,0 +1,17 @@
+|GATE3
+s <= GNOT:N1.z
+a => a.IN1
+b => b.IN1
+
+
+|GATE3|GXOR:A0
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+e1 => z.IN0
+e2 => z.IN1
+
+
+|GATE3|GNOT:N1
+z <= a.DB_MAX_OUTPUT_PORT_TYPE
+a => z.DATAIN
+
+

@@ -1,0 +1,210 @@
+|GATE2
+a => GNOT:U1.m
+a => GAND:U18.m
+a => GAND:U20.m
+a => GAND:U23.m
+b => GNOT:U2.m
+b => GAND:U13.n
+b => GAND:U23.n
+c => GNOT:U3.m
+c => GAND:U10.n
+c => GAND:U20.n
+c => GAND:U24.n
+d => GNOT:U4.m
+d => GAND:U9.n
+d => GAND:U11.n
+e => GNOT:U5.m
+e => GAND:U12.n
+e => GAND:U15.n
+e => GAND:U19.n
+e => GAND:U22.n
+s <= GOR:U32.p
+
+
+|GATE2|GNOT:U1
+m => p.DATAIN
+p <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GNOT:U2
+m => p.DATAIN
+p <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GNOT:U3
+m => p.DATAIN
+p <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GNOT:U4
+m => p.DATAIN
+p <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GNOT:U5
+m => p.DATAIN
+p <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GAND:U6
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GAND:U7
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GAND:U8
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GAND:U9
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GAND:U10
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GAND:U11
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GAND:U12
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GAND:U13
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GAND:U14
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GAND:U15
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GAND:U16
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GAND:U17
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GAND:U18
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GAND:U19
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GAND:U20
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GAND:U21
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GAND:U22
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GAND:U23
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GAND:U24
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GAND:U25
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GOR:U26
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GOR:U27
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GOR:U28
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GOR:U29
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GOR:U30
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GOR:U31
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GOR:U32
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+

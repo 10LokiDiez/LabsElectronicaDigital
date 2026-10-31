@@ -1,0 +1,97 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.std_logic_arith.all;
+use IEEE.std_logic_unsigned.all;
+
+entity GATE2 is   
+Port (
+	a, b, c, d, e: in STD_LOGIC;
+	s: out STD_LOGIC
+);
+end GATE2;
+
+architecture arq_GATE2 of GATE2 is
+
+    ------- COMPONENTS OF THE SYSTEM
+
+    -- ENTIDAD GNOT
+    component GNOT
+
+        port (
+            m : in STD_LOGIC;
+            p : out STD_LOGIC
+        );
+
+    end component;
+
+
+    -- ENTIDAD GOR
+    component GOR
+
+        port (
+            m, n : in STD_LOGIC;
+            p    : out STD_LOGIC
+        );
+
+    end component;
+
+
+    -- ENTIDAD GAND
+    component GAND
+
+        port (
+            m, n : in STD_LOGIC;
+            p    : out STD_LOGIC
+        );
+
+    end component;
+
+	 -- ENTIDAD GXOR
+    component GXOR
+
+        port (
+            a1, b1 : in STD_LOGIC;
+            q    : out STD_LOGIC
+        );
+
+    end component;
+
+    ------ SIGNALS
+
+    signal S1, S2, S3, S4: STD_LOGIC;
+
+
+begin
+	
+	U1: GAND port map(
+		m => a,
+		n => b,
+		p => S1
+	);
+	
+	U2: GAND port map(
+		m => d,
+		n => e,
+		p => S2
+	);
+	
+	U3: GOR port map(
+		m => S1,
+		n => c,
+		p => S3
+	);
+	
+	U4: GXOR port map(
+		a1 => c,
+		b1 => S2,
+		q => S4
+	);
+
+	U5: GOR port map(
+		m => S3,
+		n => S4,
+		p => s
+	);
+
+end arq_GATE2;
+

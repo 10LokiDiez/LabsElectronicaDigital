@@ -1,0 +1,5 @@
+Module GAND3(output z, input a, b, c);
+
+Assign z = (a&b&c);
+
+endmodule

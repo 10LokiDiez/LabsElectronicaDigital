@@ -1,0 +1,51 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.std_logic_arith.all;
+use IEEE.std_logic_unsigned.all;
+
+entity GXOR is
+
+port (
+
+	a, b: in STD_LOGIC;
+	q: out STD_LOGIC
+
+);
+end GXOR;
+
+architecture arq_GXOR of GXOR is
+
+component GNOT
+
+        port (
+            m : in STD_LOGIC;
+            p : out STD_LOGIC
+        );
+
+    end component;
+
+    component GOR
+
+        port (
+            m, n : in STD_LOGIC;
+            p    : out STD_LOGIC
+        );
+
+    end component;
+	 
+	 signal S1: STD_LOGIC;
+
+begin
+	U1: GOR port map(
+		m => a,
+		n => b,
+		p => S1
+	);
+	
+	U4: GNOT port map(
+		m => S1,
+		p => q
+	);
+
+end arq_GXOR;
+

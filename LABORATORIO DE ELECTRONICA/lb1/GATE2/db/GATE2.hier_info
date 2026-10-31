@@ -1,0 +1,70 @@
+|GATE2
+a => GAND:U1.m
+b => GAND:U1.n
+c => GOR:U3.n
+c => GXOR:U4.a1
+d => GAND:U2.m
+e => GAND:U2.n
+s << GOR:U5.p
+
+
+|GATE2|GAND:U1
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GAND:U2
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GOR:U3
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GXOR:U4
+a1 => GNOT:U1.m
+a1 => GAND:U4.m
+b1 => GNOT:U2.m
+b1 => GAND:U3.n
+q <= GOR:U5.p
+
+
+|GATE2|GXOR:U4|GNOT:U1
+m => p.DATAIN
+p <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GXOR:U4|GNOT:U2
+m => p.DATAIN
+p <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GXOR:U4|GAND:U3
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GXOR:U4|GAND:U4
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GXOR:U4|GOR:U5
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE2|GOR:U5
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,13 @@
+module GATE1(
+output s,
+input a, b, c, d);
+
+wire s1,s2,s3,s4,s5;
+
+
+GAND3 A0(
+	.z(s1),
+	.a(a),
+	.b(b),
+	.c(c)
+	);

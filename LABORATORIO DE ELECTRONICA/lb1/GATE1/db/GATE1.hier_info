@@ -1,0 +1,31 @@
+|GATE1
+a => GAND:U1.m
+b => GAND:U1.n
+c => GOR:U2.m
+d => GOR:U2.n
+q << GNOT:U4.p
+
+
+|GATE1|GAND:U1
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE1|GOR:U2
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE1|GOR:U3
+m => p.IN0
+n => p.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|GATE1|GNOT:U4
+m => p.DATAIN
+p <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+

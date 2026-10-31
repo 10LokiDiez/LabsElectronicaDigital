@@ -1,0 +1,114 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.std_logic_arith.all;
+use IEEE.std_logic_unsigned.all;
+
+entity GATE3 is   
+Port (
+	a, b, c, d, e: in STD_LOGIC;
+	s: out STD_LOGIC
+);
+end GATE3;
+
+architecture arq_GATE3 of GATE3 is
+
+    ------- COMPONENTS OF THE SYSTEM
+
+    -- ENTIDAD GNOT
+    component GNOT
+
+        port (
+            m : in STD_LOGIC;
+            p : out STD_LOGIC
+        );
+
+    end component;
+
+
+    -- ENTIDAD GOR
+    component GOR
+
+        port (
+            m, n : in STD_LOGIC;
+            p    : out STD_LOGIC
+        );
+
+    end component;
+
+
+    -- ENTIDAD GAND
+    component GAND
+
+        port (
+            m, n : in STD_LOGIC;
+            p    : out STD_LOGIC
+        );
+
+    end component;
+	 
+	 -- ENTIDAD GXNOR
+    component GXNOR
+
+        port (
+            a1, b1 : in STD_LOGIC;
+            q    : out STD_LOGIC
+        );
+
+    end component;
+	 
+	 -- ENTIDAD GNOR
+    component GNOR
+
+        port (
+            a1, b1 : in STD_LOGIC;
+            q    : out STD_LOGIC
+        );
+
+    end component;
+
+
+    ------ SIGNALS
+
+    signal S1, S2, S3, S4, S5: STD_LOGIC;
+
+
+begin
+	
+	U1: GAND port map(
+		m => b,
+		n => c,
+		p => S1
+	);
+	
+	U2: GAND port map(
+		m => d,
+		n => e,
+		p => S2
+	);
+	
+	U3: GNOT port map(
+		m => S1,
+		p => S3
+	);
+	
+	U4: GXNOR port map(
+		a1 => S1,
+		b1 => S2,
+		q => S4
+	);
+	
+	U5: GAND port map(
+		m => a,
+		n => S3,
+		p => S5
+	);
+	
+	U6: GNOR port map(
+		a1 => S5,
+		b1 => S4,
+		q => s
+	);
+
+
+end arq_GATE3;
+

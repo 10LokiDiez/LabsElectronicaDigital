@@ -1,0 +1,19 @@
+|GATE1
+a => S9.IN0
+a => S2.IN0
+a => S4.IN0
+b => S3.IN0
+b => S4.IN1
+b => S8.IN0
+c => S2.IN1
+c => S3.IN1
+c => S8.IN1
+c => S9.IN1
+d => S2.IN1
+d => S3.IN1
+d => S4.IN1
+d => S8.IN1
+d => S9.IN1
+s << s.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,20 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.std_logic_arith.all;
+use IEEE.std_logic_unsigned.all;
+
+entity GATE3 is   
+Port (
+	a, b: in STD_LOGIC;
+	s: out STD_LOGIC
+);
+end GATE3;
+
+architecture arq_GATE3 of GATE3 is
+
+begin
+
+	s <= a xnor b;
+
+end arq_GATE3;
+

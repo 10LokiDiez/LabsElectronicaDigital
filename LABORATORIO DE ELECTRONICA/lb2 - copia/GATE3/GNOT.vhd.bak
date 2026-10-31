@@ -1,0 +1,25 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.std_logic_arith.all;
+use IEEE.std_logic_unsigned.all;
+
+entity GNOT is
+
+port (
+
+	m: in STD_LOGIC;
+	p: out STD_LOGIC
+
+);
+end GNOT;
+
+architecture arq_GNOT of GNOT is
+
+
+
+begin
+
+	p <= not m;
+
+end arq_GNOT;
+

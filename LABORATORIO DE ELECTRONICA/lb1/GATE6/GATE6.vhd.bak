@@ -1,0 +1,120 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.std_logic_arith.all;
+use IEEE.std_logic_unsigned.all;
+
+entity GATE5 is   
+Port (
+	a, b, c, d, e, f, g, h: in STD_LOGIC;
+	s: out STD_LOGIC
+);
+end GATE5;
+
+architecture arq_GATE5 of GATE5 is
+
+    ------- COMPONENTS OF THE SYSTEM
+
+    -- ENTIDAD GOR
+    component GOR
+
+        port (
+            m, n : in STD_LOGIC;
+            p    : out STD_LOGIC
+        );
+
+    end component;
+
+
+    -- ENTIDAD GAND
+    component GAND
+
+        port (
+            m, n : in STD_LOGIC;
+            p    : out STD_LOGIC
+        );
+
+    end component;
+	 
+	 -- ENTIDAD GXOR
+    component GXOR
+
+        port (
+            a1, b1 : in STD_LOGIC;
+            q    : out STD_LOGIC
+        );
+
+    end component;
+	 
+	 -- ENTIDAD GNOR
+    component GNOR
+
+        port (
+            a1, b1 : in STD_LOGIC;
+            q    : out STD_LOGIC
+        );
+
+    end component;
+	 
+	 -- ENTIDAD GNAND
+    component GNAND
+
+        port (
+            a1, b1 : in STD_LOGIC;
+            q    : out STD_LOGIC
+        );
+
+    end component;
+
+
+    ------ SIGNALS
+
+    signal S1, S2, S3, S4, S5, S6: STD_LOGIC;
+
+
+begin
+	
+	U1: GOR port map(
+		m => a,
+		n => b,
+		p => S1
+	);
+	
+	U2: GAND port map(
+		m => c,
+		n => d,
+		p => S2
+	);
+	
+	U3: GAND port map(
+		m => e,
+		n => f,
+		p => S3
+	);
+	
+	U4: GNOR port map(
+		a1 => g,
+		b1 => h,
+		q => S4
+	);
+	
+	U5: GXOR port map(
+		a1 => S1,
+		b1 => S2,
+		q => S5
+	);
+	
+	U6: GXOR port map(
+		a1 => S3,
+		b1 => S4,
+		q => S6
+	);
+	
+	U7: GNAND port map(
+		a1 => S5,
+		b1 => S6,
+		q => s
+	);
+
+
+end arq_GATE6;
+
