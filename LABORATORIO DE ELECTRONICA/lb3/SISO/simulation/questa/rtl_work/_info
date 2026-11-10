@@ -1,0 +1,254 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2025.2 2025.05, May 31 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/simulation/questa
+T_opt
+!i145 1
+!i144 0
+!s110 1794340952
+VzSR1cE6aTZzj`YhM1VnIZ1
+04 7 4 work TB_SISO fast 0
+=1-acf466b2bafa-6af37858-121-6028
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM10U98 
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work +acc
+tCvgOpt 0 defaultOptions 1107585188
+n@_opt
+OL;O;2025.2;82
+vFLIPFLOPD_POS
+2C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/FLIPFLOPD_POS.v
+!s110 1794340949
+!i10b 1
+!s100 h15i9D?M2=HzNbOkzg3ce2
+IPUECoI0Loh[>8joUeDl@43
+R1
+w1794336633
+8C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/FLIPFLOPD_POS.v
+FC:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/FLIPFLOPD_POS.v
+!i122 0
+Z2 L0 1 12
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2025.2;82
+r1
+!s85 0
+31
+!s108 1794340949.000000
+!s107 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/FLIPFLOPD_POS.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO|C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/FLIPFLOPD_POS.v|
+!i113 0
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 !s92 -work work {+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 tCvgOpt 0 defaultOptions 1085333592
+n@f@l@i@p@f@l@o@p@d_@p@o@s
+vGAND
+2C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/GAND.v
+Z8 !s110 1794340951
+!i10b 1
+!s100 DIMa3z71<9i_`Jk=JY8I;0
+I8lnBO:0Vz9zMI;2PAU:HG2
+R1
+w1794327458
+8C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/GAND.v
+FC:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/GAND.v
+!i122 6
+Z9 L0 1 5
+R3
+R4
+r1
+!s85 0
+31
+Z10 !s108 1794340951.000000
+!s107 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/GAND.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO|C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/GAND.v|
+!i113 0
+R5
+R6
+R7
+n@g@a@n@d
+vGNOR
+2C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/GNOR.v
+R8
+!i10b 1
+!s100 @JRk6d8_>3L]Fg^M0mO8>2
+IW1>K3mNP8nCb2d;BV3;[P1
+R1
+w1794327713
+8C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/GNOR.v
+FC:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/GNOR.v
+!i122 5
+Z11 L0 1 8
+R3
+R4
+r1
+!s85 0
+31
+Z12 !s108 1794340950.000000
+!s107 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/GNOR.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO|C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/GNOR.v|
+!i113 0
+R5
+R6
+R7
+n@g@n@o@r
+vGNOT
+2C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/GNOT.v
+Z13 !s110 1794340950
+!i10b 1
+!s100 `QcWEfQ66h7:cT;7HMNAU2
+IgAnC6RJXjCjnDL61XRhWl0
+R1
+w1793409932
+8C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/GNOT.v
+FC:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/GNOT.v
+!i122 4
+R9
+R3
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/GNOT.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO|C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/GNOT.v|
+!i113 0
+R5
+R6
+R7
+n@g@n@o@t
+vGOR
+2C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/GOR.v
+R13
+!i10b 1
+!s100 1:dln^cF?zH7?lj=dK?7g2
+IFWTkGA:B7[7VjmJV91olj3
+R1
+w1794327485
+8C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/GOR.v
+FC:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/GOR.v
+!i122 3
+R9
+R3
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/GOR.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO|C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/GOR.v|
+!i113 0
+R5
+R6
+R7
+n@g@o@r
+vLATCHD
+2C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/LATCHD.v
+R13
+!i10b 1
+!s100 nYGUU5nBMGilo>3^YcAdb1
+I1ZmWUJBjM33Hhc?m1L=YC3
+R1
+w1794332583
+8C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/LATCHD.v
+FC:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/LATCHD.v
+!i122 2
+R2
+R3
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/LATCHD.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO|C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/LATCHD.v|
+!i113 0
+R5
+R6
+R7
+n@l@a@t@c@h@d
+vLATCHRS
+2C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/LATCHRS.v
+R13
+!i10b 1
+!s100 A>D;g3_3RThl[6KRPADoD3
+IznY9iONSP3Xf?NJljgJ3l1
+R1
+w1794329366
+8C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/LATCHRS.v
+FC:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/LATCHRS.v
+!i122 1
+R11
+R3
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/LATCHRS.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO|C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/LATCHRS.v|
+!i113 0
+R5
+R6
+R7
+n@l@a@t@c@h@r@s
+vSISO
+2C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/SISO.v
+R8
+!i10b 1
+!s100 ib3PnLf_Db?>zF8NZ[:D61
+I[WeU6zmW?e462SIXLE`=83
+R1
+w1794340763
+8C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/SISO.v
+FC:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/SISO.v
+!i122 7
+L0 1 10
+R3
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/SISO.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO|C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/SISO.v|
+!i113 0
+R5
+R6
+R7
+n@s@i@s@o
+vTB_SISO
+2C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/TB_SISO.v
+R8
+!i10b 1
+!s100 `8?;BEl_]7agLZ7:iBf<A1
+I1A_URb1cj0K;Q>_P<9KaJ1
+R1
+w1794340374
+8C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/TB_SISO.v
+FC:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/TB_SISO.v
+!i122 8
+L0 1 26
+R3
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/TB_SISO.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO|C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/TB_SISO.v|
+!i113 0
+R5
+R6
+R7
+n@t@b_@s@i@s@o

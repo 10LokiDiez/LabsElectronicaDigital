@@ -1,0 +1,10 @@
+module SISO(output Out, input In, CLK);
+
+wire w1,w2,w3;
+
+FLIPFLOPD_POS U1(w1, ,IN,CLK);
+FLIPFLOPD_POS U2(w2, ,w1,CLK);
+FLIPFLOPD_POS U3(w3, ,w2,CLK);
+FLIPFLOPD_POS U4(Out, ,w3,CLK);
+
+endmodule

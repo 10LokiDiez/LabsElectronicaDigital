@@ -1,0 +1,15 @@
+module FLIPFLOPD_POS_PC(
+    output Q, NQ,
+    input D, CLK, PRESET, CLEAR
+);
+
+wire CLKN;
+wire QM, NQM;
+
+GNOT U1(CLKN, CLK);
+
+LATCHD_PC U2(QM, NQM, D, CLKN, PRESET, CLEAR);
+
+LATCHD_PC U3(Q, NQ, QM, CLK, PRESET, CLEAR);
+
+endmodule

@@ -1,0 +1,35 @@
+module TB_regcor;
+
+reg [3:0] In;
+reg SIn, Shift, CLK;
+wire [3:0] Q;
+
+regcor U1(Q, In, SIn, Shift, CLK);
+
+// Generador de Clock
+initial begin
+    CLK = 0;
+    forever #5000 CLK = ~CLK;
+end
+
+// Pruebas del circuito
+initial begin
+    In = 4'b0000;
+    SIn = 0;
+    Shift = 1;
+
+    // Carga paralela
+    #12000 In = 4'b1011;
+    #20000 In = 4'b0101;
+
+    // Desplazamiento serial
+    #20000 Shift = 0;
+    #10000 SIn = 1;
+    #10000 SIn = 0;
+    #10000 SIn = 1;
+    #10000 SIn = 0;
+
+    #20000 $finish;
+end
+
+endmodule

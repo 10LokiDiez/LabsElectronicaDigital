@@ -1,0 +1,16 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog  -work work +incdir+C:/Users/sidim/Documents/LABORATORIO\ DE\ ELECTRONICA/lb3/SISO {C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/FLIPFLOPD_POS.v}
+vlog  -work work +incdir+C:/Users/sidim/Documents/LABORATORIO\ DE\ ELECTRONICA/lb3/SISO {C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/LATCHRS.v}
+vlog  -work work +incdir+C:/Users/sidim/Documents/LABORATORIO\ DE\ ELECTRONICA/lb3/SISO {C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/LATCHD.v}
+vlog  -work work +incdir+C:/Users/sidim/Documents/LABORATORIO\ DE\ ELECTRONICA/lb3/SISO {C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/GOR.v}
+vlog  -work work +incdir+C:/Users/sidim/Documents/LABORATORIO\ DE\ ELECTRONICA/lb3/SISO {C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/GNOT.v}
+vlog  -work work +incdir+C:/Users/sidim/Documents/LABORATORIO\ DE\ ELECTRONICA/lb3/SISO {C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/GNOR.v}
+vlog  -work work +incdir+C:/Users/sidim/Documents/LABORATORIO\ DE\ ELECTRONICA/lb3/SISO {C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/GAND.v}
+vlog  -work work +incdir+C:/Users/sidim/Documents/LABORATORIO\ DE\ ELECTRONICA/lb3/SISO {C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/SISO/SISO.v}
+

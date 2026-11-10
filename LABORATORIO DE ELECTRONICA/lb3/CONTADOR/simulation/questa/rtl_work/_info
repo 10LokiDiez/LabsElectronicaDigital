@@ -1,0 +1,279 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2025.2 2025.05, May 31 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/simulation/questa
+T_opt
+!i145 1
+!i144 0
+!s110 1794350417
+VWabUEEZWS@:eWK7Um6:CA3
+04 11 4 work TB_CONTADOR fast 0
+=1-acf466b2bafa-6af39d51-171-123c
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM10U126 
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work +acc
+tCvgOpt 0 defaultOptions 1107585188
+n@_opt
+OL;O;2025.2;82
+vCONTADOR
+2C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/CONTADOR.v
+Z2 !s110 1794350416
+!i10b 1
+!s100 QLY<<mlM_``;14^[E?PcJ3
+Ion^ml:b3cGP>4NQ;A@``42
+R1
+w1794350260
+8C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/CONTADOR.v
+FC:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/CONTADOR.v
+!i122 8
+L0 1 25
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2025.2;82
+r1
+!s85 0
+31
+Z5 !s108 1794350416.000000
+!s107 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/CONTADOR.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR|C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/CONTADOR.v|
+!i113 0
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 !s92 -work work {+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 tCvgOpt 0 defaultOptions 1085333592
+n@c@o@n@t@a@d@o@r
+vFLIPFLOPD_POS
+2C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/FLIPFLOPD_POS.v
+R2
+!i10b 1
+!s100 h15i9D?M2=HzNbOkzg3ce2
+IJJCfQR^^N;1<FPH?bJgZe1
+R1
+w1794336633
+8C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/FLIPFLOPD_POS.v
+FC:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/FLIPFLOPD_POS.v
+!i122 6
+Z9 L0 1 12
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/FLIPFLOPD_POS.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR|C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/FLIPFLOPD_POS.v|
+!i113 0
+R6
+R7
+R8
+n@f@l@i@p@f@l@o@p@d_@p@o@s
+vGAND
+2C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/GAND.v
+R2
+!i10b 1
+!s100 DIMa3z71<9i_`Jk=JY8I;0
+I56C73lG>eJXGP9z@>^OMI2
+R1
+w1794327458
+8C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/GAND.v
+FC:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/GAND.v
+!i122 5
+Z10 L0 1 5
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/GAND.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR|C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/GAND.v|
+!i113 0
+R6
+R7
+R8
+n@g@a@n@d
+vGNOR
+2C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/GNOR.v
+Z11 !s110 1794350415
+!i10b 1
+!s100 @JRk6d8_>3L]Fg^M0mO8>2
+IT_dZ;3AAhPE>6hgS64g_21
+R1
+w1794327713
+8C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/GNOR.v
+FC:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/GNOR.v
+!i122 4
+Z12 L0 1 8
+R3
+R4
+r1
+!s85 0
+31
+Z13 !s108 1794350415.000000
+!s107 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/GNOR.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR|C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/GNOR.v|
+!i113 0
+R6
+R7
+R8
+n@g@n@o@r
+vGNOT
+2C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/GNOT.v
+R11
+!i10b 1
+!s100 `QcWEfQ66h7:cT;7HMNAU2
+IGlA[`IXzenN_?H2oMjNJE2
+R1
+w1793409932
+8C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/GNOT.v
+FC:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/GNOT.v
+!i122 3
+R10
+R3
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/GNOT.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR|C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/GNOT.v|
+!i113 0
+R6
+R7
+R8
+n@g@n@o@t
+vGOR
+2C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/GOR.v
+R11
+!i10b 1
+!s100 1:dln^cF?zH7?lj=dK?7g2
+I>:aRbTODzWR0kLID:CZEO3
+R1
+w1794327485
+8C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/GOR.v
+FC:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/GOR.v
+!i122 2
+R10
+R3
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/GOR.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR|C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/GOR.v|
+!i113 0
+R6
+R7
+R8
+n@g@o@r
+vGXOR
+2C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/GXOR.v
+R2
+!i10b 1
+!s100 3aX:EKL:V]=RQ_lPcUdPe2
+IF]P3W_d5ZITD>So1kCz_A0
+R1
+w1794348689
+8C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/GXOR.v
+FC:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/GXOR.v
+!i122 7
+L0 1 13
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/GXOR.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR|C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/GXOR.v|
+!i113 0
+R6
+R7
+R8
+n@g@x@o@r
+vLATCHD
+2C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/LATCHD.v
+R11
+!i10b 1
+!s100 nYGUU5nBMGilo>3^YcAdb1
+I]09XkCBej[;k52XZ1z3Gm0
+R1
+w1794332583
+8C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/LATCHD.v
+FC:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/LATCHD.v
+!i122 1
+R9
+R3
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/LATCHD.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR|C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/LATCHD.v|
+!i113 0
+R6
+R7
+R8
+n@l@a@t@c@h@d
+vLATCHRS
+2C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/LATCHRS.v
+R11
+!i10b 1
+!s100 A>D;g3_3RThl[6KRPADoD3
+IBATc8dNK@oeN>T8^93BHP2
+R1
+w1794329366
+8C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/LATCHRS.v
+FC:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/LATCHRS.v
+!i122 0
+R12
+R3
+R4
+r1
+!s85 0
+31
+!s108 1794350414.000000
+!s107 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/LATCHRS.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR|C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/LATCHRS.v|
+!i113 0
+R6
+R7
+R8
+n@l@a@t@c@h@r@s
+vTB_CONTADOR
+2C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/TB_CONTADOR.v
+R2
+!i10b 1
+!s100 YTS_MaUa5JP4bzV6^7JY=1
+IHcEIjKK<3A@JO766<dObT0
+R1
+w1794350321
+8C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/TB_CONTADOR.v
+FC:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/TB_CONTADOR.v
+!i122 9
+L0 1 26
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/TB_CONTADOR.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR|C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/CONTADOR/TB_CONTADOR.v|
+!i113 0
+R6
+R7
+R8
+n@t@b_@c@o@n@t@a@d@o@r

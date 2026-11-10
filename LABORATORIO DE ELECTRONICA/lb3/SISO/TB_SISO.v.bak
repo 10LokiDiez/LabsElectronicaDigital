@@ -1,0 +1,24 @@
+module TB_SISO;
+
+reg In, CLK;
+wire Out;
+
+SISO U1(Out, In, CLK);
+
+// Generador de Clock
+initial begin
+    CLK = 0;
+    forever #5000 CLK = ~CLK;
+end
+
+// Cambios de In
+initial begin
+    In = 0;
+//Lo establecemos en 12000 para que no cambie junto al clock
+    #12000 In = 1;
+    #20000 In = 0;
+    #20000 In = 1;
+    #20000 $finish;
+end
+
+endmodule

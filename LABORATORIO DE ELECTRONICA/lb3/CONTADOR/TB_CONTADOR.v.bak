@@ -1,0 +1,32 @@
+module TB_CONTADOR;
+
+reg En, CLK;
+wire [0:3] Q;
+wire Z;
+
+CONTADOR U1(Q, Z, En, CLK);
+
+initial begin
+    CLK = 0;
+    forever #5000 CLK = ~CLK;
+end
+
+initial begin
+    En = 0;
+
+    // Contador desactivado
+    #12000 En = 1;
+
+    // Contador activado
+    #160000 En = 0;
+
+    // Contador detenido
+    #30000 En = 1;
+
+    // Contador activado nuevamente
+    #50000 En = 0;
+
+    #10000 $finish;
+end
+
+endmodule

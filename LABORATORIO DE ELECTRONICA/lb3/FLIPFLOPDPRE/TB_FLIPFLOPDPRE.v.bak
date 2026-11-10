@@ -1,0 +1,39 @@
+module TB_FLIPFLOPD_POS_PC;
+
+reg D, CLK, PRESET, CLEAR;
+wire Q, NQ;
+
+FLIPFLOPD_POS_PC U1(Q, NQ, D, CLK, PRESET, CLEAR);
+
+// Generador de Clock
+initial begin
+    CLK = 0;
+    forever #5000 CLK = ~CLK;
+end
+
+// Pruebas
+initial begin
+    D = 0;
+    PRESET = 0;
+    CLEAR = 0;
+
+    // Funcionamiento normal
+    #12000 D = 1;
+    #20000 D = 0;
+
+    // Prueba de PRESET
+    #10000 PRESET = 1;
+    #5000 PRESET = 0;
+
+    // Prueba de CLEAR
+    #5000 CLEAR = 1;
+    #5000 CLEAR = 0;
+
+    // Funcionamiento normal nuevamente
+    #5000 D = 1;
+    #20000 D = 0;
+
+    #10000 $finish;
+end
+
+endmodule

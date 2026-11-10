@@ -1,0 +1,15 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog  -work work +incdir+C:/Users/sidim/Documents/LABORATORIO\ DE\ ELECTRONICA/lb3/FLIPFLOPDPRE {C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPDPRE/LATCHRS.v}
+vlog  -work work +incdir+C:/Users/sidim/Documents/LABORATORIO\ DE\ ELECTRONICA/lb3/FLIPFLOPDPRE {C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPDPRE/GOR.v}
+vlog  -work work +incdir+C:/Users/sidim/Documents/LABORATORIO\ DE\ ELECTRONICA/lb3/FLIPFLOPDPRE {C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPDPRE/GNOT.v}
+vlog  -work work +incdir+C:/Users/sidim/Documents/LABORATORIO\ DE\ ELECTRONICA/lb3/FLIPFLOPDPRE {C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPDPRE/GNOR.v}
+vlog  -work work +incdir+C:/Users/sidim/Documents/LABORATORIO\ DE\ ELECTRONICA/lb3/FLIPFLOPDPRE {C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPDPRE/GAND.v}
+vlog  -work work +incdir+C:/Users/sidim/Documents/LABORATORIO\ DE\ ELECTRONICA/lb3/FLIPFLOPDPRE {C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPDPRE/LATCHD_PC.v}
+vlog  -work work +incdir+C:/Users/sidim/Documents/LABORATORIO\ DE\ ELECTRONICA/lb3/FLIPFLOPDPRE {C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPDPRE/FLIPFLOPD_POS_PC.v}
+

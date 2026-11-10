@@ -1,0 +1,20 @@
+module GANDWNAND(output q, input e1,e2);
+
+wire n1,n2;
+
+NOTWNANDA(
+	.q(n1),
+	.e1(e1)
+	);
+	
+NOTWNANDA(
+	.q(n2),
+	.e1(e2)
+	);
+	
+GNAND A(
+	.q(q),
+	.a(n1),
+	.b(n2));
+
+endmodule

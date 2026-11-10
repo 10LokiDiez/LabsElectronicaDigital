@@ -1,0 +1,9 @@
+module GNOTWNAND(output q, input e1);
+
+
+GNAND(
+	.q(z),
+	.a(e1),
+	.b(e1)
+
+endmodule

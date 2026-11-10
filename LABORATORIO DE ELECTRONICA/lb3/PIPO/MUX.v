@@ -1,0 +1,12 @@
+module MUX(output Y, input A, B, S);
+
+wire w1, w2, w3;
+
+GNOT U1(w1, S);
+
+GAND U2(w2, A, w1);
+GAND U3(w3, B, S);
+
+GOR U4(Y, w2, w3);
+
+endmodule

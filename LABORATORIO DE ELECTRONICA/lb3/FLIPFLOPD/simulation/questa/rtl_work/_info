@@ -1,0 +1,229 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2025.2 2025.05, May 31 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/simulation/questa
+T_opt
+!i145 1
+!i144 0
+!s110 1794333163
+VCdI;jU05N13[H9kU9S7Md3
+04 12 4 work TB_FLIPFLOPD fast 0
+=1-acf466b2bafa-6af359ea-12b-2334
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM10U25 
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work +acc
+tCvgOpt 0 defaultOptions 1107585188
+n@_opt
+OL;O;2025.2;82
+vFLIPFLOPD
+2C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/FLIPFLOPD.v
+Z2 !s110 1794333160
+!i10b 1
+!s100 =FOS<MBi<0]i8gGME]mLH2
+I]<B;5oTYYSJ?4fdd>22ZI2
+R1
+w1794332816
+8C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/FLIPFLOPD.v
+FC:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/FLIPFLOPD.v
+!i122 4
+Z3 L0 1 12
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2025.2;82
+r1
+!s85 0
+31
+Z6 !s108 1794333159.000000
+!s107 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/FLIPFLOPD.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD|C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/FLIPFLOPD.v|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 !s92 -work work {+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 tCvgOpt 0 defaultOptions 1085333592
+n@f@l@i@p@f@l@o@p@d
+vGAND
+2C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/GAND.v
+Z10 !s110 1794333159
+!i10b 1
+!s100 DIMa3z71<9i_`Jk=JY8I;0
+IEEg6CoL^RhlTTje_GVAmH2
+R1
+w1794327458
+8C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/GAND.v
+FC:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/GAND.v
+!i122 1
+Z11 L0 1 5
+R4
+R5
+r1
+!s85 0
+31
+Z12 !s108 1794333158.000000
+!s107 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/GAND.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD|C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/GAND.v|
+!i113 0
+R7
+R8
+R9
+n@g@a@n@d
+vGNOR
+2C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/GNOR.v
+R10
+!i10b 1
+!s100 @JRk6d8_>3L]Fg^M0mO8>2
+I3MFPmI4I0zHlJkZChAZc^1
+R1
+w1794327713
+8C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/GNOR.v
+FC:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/GNOR.v
+!i122 3
+Z13 L0 1 8
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/GNOR.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD|C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/GNOR.v|
+!i113 0
+R7
+R8
+R9
+n@g@n@o@r
+vGNOT
+2C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/GNOT.v
+!s110 1794333158
+!i10b 1
+!s100 `QcWEfQ66h7:cT;7HMNAU2
+In0^>8X:DfUT8oUlk0X<K<3
+R1
+w1793409932
+8C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/GNOT.v
+FC:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/GNOT.v
+!i122 0
+R11
+R4
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/GNOT.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD|C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/GNOT.v|
+!i113 0
+R7
+R8
+R9
+n@g@n@o@t
+vGOR
+2C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/GOR.v
+R10
+!i10b 1
+!s100 1:dln^cF?zH7?lj=dK?7g2
+IGEOEO3R:2k@P:R3i=^D]A3
+R1
+w1794327485
+8C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/GOR.v
+FC:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/GOR.v
+!i122 2
+R11
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/GOR.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD|C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/GOR.v|
+!i113 0
+R7
+R8
+R9
+n@g@o@r
+vLATCHD
+2C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/LATCHD.v
+R2
+!i10b 1
+!s100 nYGUU5nBMGilo>3^YcAdb1
+ISgK<EKddOMdI0[N1j;94;1
+R1
+w1794332583
+8C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/LATCHD.v
+FC:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/LATCHD.v
+!i122 6
+R3
+R4
+R5
+r1
+!s85 0
+31
+Z14 !s108 1794333160.000000
+!s107 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/LATCHD.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD|C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/LATCHD.v|
+!i113 0
+R7
+R8
+R9
+n@l@a@t@c@h@d
+vLATCHRS
+2C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/LATCHRS.v
+R2
+!i10b 1
+!s100 A>D;g3_3RThl[6KRPADoD3
+IG<ikiXdEEZ>0^8XK;L?ID1
+R1
+w1794329366
+8C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/LATCHRS.v
+FC:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/LATCHRS.v
+!i122 5
+R13
+R4
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/LATCHRS.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD|C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/LATCHRS.v|
+!i113 0
+R7
+R8
+R9
+n@l@a@t@c@h@r@s
+vTB_FLIPFLOPD
+2C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/TB_FLIPFLOPD.v
+!s110 1794333161
+!i10b 1
+!s100 ^24>cMccU[F9YM?5goj7=1
+I;f`K;_oXO8?><03G7c1CQ1
+R1
+w1794330874
+8C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/TB_FLIPFLOPD.v
+FC:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/TB_FLIPFLOPD.v
+!i122 7
+L0 1 24
+R4
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/TB_FLIPFLOPD.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD|C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/TB_FLIPFLOPD.v|
+!i113 0
+R7
+R8
+R9
+n@t@b_@f@l@i@p@f@l@o@p@d

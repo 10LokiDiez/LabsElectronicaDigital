@@ -1,0 +1,25 @@
+module CONTADOR(output [3:0] Q, Z, input En, CLK);
+
+wire w1,w2,w3,w4,w5,w6,w7;
+
+GXOR X1(w1,En,Q[0]);
+FLIPFLOPD_POS U1(Q[0], , w1, CLK);
+
+GAND A1(w2,En,Q[0]);
+
+GXOR X2(w3,w2,Q[1]);
+FLIPFLOPD_POS U2(Q[1], , w3, CLK);
+
+GAND A2(w4,w2,Q[1]);
+
+GXOR X3(w5,w4,Q[2]);
+FLIPFLOPD_POS U3(Q[2], , w5, CLK);
+
+GAND A3(w6,w4,Q[2]);
+
+GXOR X4(w7,w6,Q[3]);
+FLIPFLOPD_POS U4(Q[3], , w7, CLK);
+
+GAND A4(Z,w6,Q[3]);
+
+endmodule

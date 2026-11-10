@@ -1,0 +1,14 @@
+1 4 GNOT 4 fast 95 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPDPRE/simulation/questa/rtl_work 0 0 0 0 8 0
+1 4 GNOT 7 fast__1 95 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPDPRE/simulation/questa/rtl_work 0 0 0 0 8 0
+1 4 GAND 4 fast 95 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPDPRE/simulation/questa/rtl_work 0 0 0 0 10 0
+1 4 GAND 7 fast__1 95 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPDPRE/simulation/questa/rtl_work 0 0 0 0 10 0
+1 3 GOR 4 fast 95 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPDPRE/simulation/questa/rtl_work 0 0 0 0 10 0
+1 3 GOR 7 fast__1 95 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPDPRE/simulation/questa/rtl_work 0 0 0 0 10 0
+1 4 GNOT 7 fast__2 95 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPDPRE/simulation/questa/rtl_work 0 0 0 0 8 0
+1 4 GNOR 4 fast 95 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPDPRE/simulation/questa/rtl_work 0 0 0 0 14 0
+1 7 LATCHRS 4 fast 95 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPDPRE/simulation/questa/rtl_work 0 0 0 0 16 0
+1 9 LATCHD_PC 4 fast 95 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPDPRE/simulation/questa/rtl_work 0 0 180224 0 59 0
+1 4 GAND 7 fast__2 95 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPDPRE/simulation/questa/rtl_work 0 0 0 0 10 0
+1 9 LATCHD_PC 7 fast__1 95 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPDPRE/simulation/questa/rtl_work 0 0 180224 0 59 0
+1 16 FLIPFLOPD_POS_PC 4 fast 95 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPDPRE/simulation/questa/rtl_work 0 0 0 0 40 0
+1 15 TB_FLIPFLOPDPRE 4 fast 95 C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPDPRE/simulation/questa/rtl_work 0 0 0 0 88 0

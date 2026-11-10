@@ -1,0 +1,11 @@
+module FLIPFLOPD(output Q, NQ, input D, CLK);
+
+wire w1,w2,w3;
+
+GNOT U1(w1, D);
+
+GNOR U2(Q, w1, NQ);
+
+GNOR U3(NQ, D, Q);
+
+endmodule

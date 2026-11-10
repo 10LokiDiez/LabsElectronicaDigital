@@ -1,0 +1,150 @@
+# Reading pref.tcl
+# //  Questa Altera Starter FPGA Edition-64
+# //  Version 2025.2 win64 May 31 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# do FLIPFLOPD_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Altera Starter FPGA Edition-64 vmap 2025.2 Lib Mapping Utility 2025.05 May 31 2025
+# vmap work rtl_work 
+# ** Note: (vmap-220) 'c:/altera_lite/25.1std/questa_fse/win64/../modelsim.ini' is used as the ini file.
+# Copying c:/altera_lite/25.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog  -work work +incdir+C:/Users/sidim/Documents/LABORATORIO\ DE\ ELECTRONICA/lb3/FLIPFLOPD {C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/GNOT.v}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 12:52:38 on Nov 10,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD" C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/GNOT.v 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module GNOT
+# 
+# Top level modules:
+# 	GNOT
+# End time: 12:52:38 on Nov 10,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog  -work work +incdir+C:/Users/sidim/Documents/LABORATORIO\ DE\ ELECTRONICA/lb3/FLIPFLOPD {C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/GAND.v}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 12:52:38 on Nov 10,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD" C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/GAND.v 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module GAND
+# 
+# Top level modules:
+# 	GAND
+# End time: 12:52:39 on Nov 10,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog  -work work +incdir+C:/Users/sidim/Documents/LABORATORIO\ DE\ ELECTRONICA/lb3/FLIPFLOPD {C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/GOR.v}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 12:52:39 on Nov 10,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD" C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/GOR.v 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module GOR
+# 
+# Top level modules:
+# 	GOR
+# End time: 12:52:39 on Nov 10,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog  -work work +incdir+C:/Users/sidim/Documents/LABORATORIO\ DE\ ELECTRONICA/lb3/FLIPFLOPD {C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/GNOR.v}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 12:52:39 on Nov 10,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD" C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/GNOR.v 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module GNOR
+# 
+# Top level modules:
+# 	GNOR
+# End time: 12:52:39 on Nov 10,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog  -work work +incdir+C:/Users/sidim/Documents/LABORATORIO\ DE\ ELECTRONICA/lb3/FLIPFLOPD {C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/FLIPFLOPD.v}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 12:52:39 on Nov 10,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD" C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/FLIPFLOPD.v 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module FLIPFLOPD
+# 
+# Top level modules:
+# 	FLIPFLOPD
+# End time: 12:52:40 on Nov 10,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog  -work work +incdir+C:/Users/sidim/Documents/LABORATORIO\ DE\ ELECTRONICA/lb3/FLIPFLOPD {C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/LATCHRS.v}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 12:52:40 on Nov 10,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD" C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/LATCHRS.v 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module LATCHRS
+# 
+# Top level modules:
+# 	LATCHRS
+# End time: 12:52:40 on Nov 10,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog  -work work +incdir+C:/Users/sidim/Documents/LABORATORIO\ DE\ ELECTRONICA/lb3/FLIPFLOPD {C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/LATCHD.v}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 12:52:40 on Nov 10,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD" C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/LATCHD.v 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module LATCHD
+# 
+# Top level modules:
+# 	LATCHD
+# End time: 12:52:40 on Nov 10,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog  -work work +incdir+C:/Users/sidim/Documents/LABORATORIO\ DE\ ELECTRONICA/lb3/FLIPFLOPD {C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/TB_FLIPFLOPD.v}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 12:52:40 on Nov 10,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD" C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/TB_FLIPFLOPD.v 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module TB_FLIPFLOPD
+# 
+# Top level modules:
+# 	TB_FLIPFLOPD
+# End time: 12:52:41 on Nov 10,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  TB_FLIPFLOPD
+# ** Note: (vsim-220) 'modelsim.ini' is used as the ini file.
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" TB_FLIPFLOPD 
+# Start time: 12:52:41 on Nov 10,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vopt-220) 'modelsim.ini' is used as the ini file.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.TB_FLIPFLOPD(fast)
+# Loading work.FLIPFLOPD(fast)
+# Loading work.GNOT(fast)
+# Loading work.LATCHD(fast)
+# Loading work.GAND(fast)
+# Loading work.GNOT(fast__1)
+# Loading work.LATCHRS(fast)
+# Loading work.GNOR(fast)
+# Loading work.GOR(fast)
+# Loading work.GNOT(fast__2)
+# Loading work.LATCHD(fast__1)
+# Loading work.GAND(fast__1)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 90 ns
+# ** Note: $finish    : C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/TB_FLIPFLOPD.v(21)
+#    Time: 72 ns  Iteration: 0  Instance: /TB_FLIPFLOPD
+# 1
+# Break in Module TB_FLIPFLOPD at C:/Users/sidim/Documents/LABORATORIO DE ELECTRONICA/lb3/FLIPFLOPD/TB_FLIPFLOPD.v line 21
+# End time: 13:47:54 on Nov 10,2026, Elapsed time: 0:55:13
+# Errors: 0, Warnings: 1
